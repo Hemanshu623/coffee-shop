@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    background-color: #FFFBF2;
+    overflow-x: hidden;
+  
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+.fs1{
+    padding-top: 150px ;
+    background-color: black;
+    
+}
+
+#title{
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 450;
+    font-family: Oswald;
+    padding: 0;
+    background-color: transparent;
+    
+}
+
+#first{
+   height: 675px;
+   width: 675px;
+      background: url(../img/dalgona-coffee-in-glass-cup-2WAC52D-1024x1024.webp) center center/cover;
+  }
+
+#second{
+    background: url(../img/bg.png.webp);
+    background-repeat: no-repeat;
+    float: right;
+    justify-content: flex-end;
+    justify-items:end;
+   background-position: top right;
+   background-size: 275px;
+   opacity: 0.7;
+   filter: saturate(1);
+   
+    
+    
+   
+}
+
+#intro{
+    color: #ad9a74;
+    font-size: 40px;
+    font-weight: 450;
+    font-family: Oswald;
+    padding: 0;
+    background-color: transparent;
+    margin-left: 100px;
+    line-height: 4;
+}
+
+#p1,#p2{
+    margin-left: 100px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 2.2;
+
+}
+#intro::after {
+    content: "";
+    position: absolute;
+    width: 216px;
+    height: 4px;
+    background-color: #d1a84a;
+    top: 12%;
+    left: -18%;
+    margin-left: 10px;
+  }
+
+.fs2{
+    padding-top: 20px ;
+    background-color: black;
+    
+}
+
+#ss{
+    height: 675px;
+    width: 675px;
+       background: url(../img/barista-making-coffee-F2GU6L8-1024x683.webp) center center/cover;
+   margin-left: 65px;
+    }
+
+#ss1{
+    background: url(../img/coffee-bg-1-e1592388441790.webp);
+    background-repeat: no-repeat;
+   
+    justify-content: flex-end;
+    justify-items:end;
+   background-position: top left;
+   background-size: 275px;
+   opacity: 5;
+   filter: saturate(1);
+   
+    
+    
+   
+}
+
+#intro1{
+    color: #ccb161;
+    font-size: 40px;
+    font-weight: 450;
+    font-family: Oswald;
+    padding: 0;
+    background-color: transparent;
+    margin-left: 224px;
+    line-height: 4;
+}
+
+#s1,#s2{
+    margin-left: 100px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 2.2;
+
+}
+#intro1::before
+{
+    content: "";
+    position: absolute;
+    width: 172px;
+    height: 4px;
+    background-color: #d1a84a;
+    top: 12%;
+    left: 6%;
+    margin-left: 10px;
+}
+.fs3{
+    padding-top: 20px ;
+    background-color: black;
+    
+}
+
+#title1{
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 450;
+    font-family: Oswald;
+    padding: 0;
+    background-color: transparent;
+    line-height: 1;
+    
+}
+
+#t1{
+   height: 625px;
+   width: 500px;
+      background: url(../img/cup-of-espresso-coffee-TZJ9ESV-683x1024.webp) center center;
+      margin-left: 200px;
+  }
+
+#t2{
+    background: url(../img/bg.png.webp);
+    background-repeat: no-repeat;
+    float: right;
+    justify-content: flex-end;
+    justify-items:end;
+   background-position: top right;
+   background-size: 275px;
+   opacity: 0.7;
+   filter: saturate(1);
+   
+    
+    
+   
+}
+
+#intro3{
+    color: #ad9a74;
+    font-size: 40px;
+    font-weight: 450;
+    font-family: Oswald;
+    padding: 0;
+    background-color: transparent;
+    margin-left: 100px;
+    line-height: 4;
+}
+
+#ps1,#ps2{
+    margin-left: 100px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 2.2;
+
+}
+#intro3::after {
+    content: "";
+    position: absolute;
+    width: 216px;
+    height: 4px;
+    background-color: #d1a84a;
+    top: 19%;
+    left: -18%;
+    margin-left: 10px;
+  }
+ 
+.fs4{
+    padding-top: 20px ;
+    background-color: black;
+    
+}
+
+#title4{
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 500;
+    font-family: Oswald;
+    padding: 0;
+    background-color: transparent;
+    line-height: 1;
+    margin-left: -75PX;
+    position: relative;
+    
+}
+
+#intro4{
+    color: #ccb161;
+    font-size: 40px;
+    font-weight: 450;
+    font-family: Oswald;
+    padding: 0;
+    background-color: transparent;
+    margin-left: 244px;
+    line-height: 4;
+    /* position: absolute; */
+  
+}
+
+#intro4::before
+{
+    content: "";
+    position: absolute;
+    width: 175px;
+    height: 4px;
+    background-color: #d1a84a;
+    top: 50%;
+    left: 20%;
+    margin-left: 95px
+}
+
+.fs5{
+  padding-top: 20px ;
+  padding-bottom: 70px;
+  background-color: black;
+  
+}
+
+.container {
+    padding-top: 20px;
+  }
+  
+  .card {
+    border: none;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card-img {
+    width: 100%;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover .card-img {
+    transform: scale(1.1);
+  }
+  
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+    transition: background 0.2s;
+  }
+  
+  .card-body h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+  }
+  
+  .card-body p {
+    font-size: 1rem;
+    background-color: transparent;
+  }
+  

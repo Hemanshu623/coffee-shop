@@ -1,0 +1,138 @@
+/* cart.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    background-color: #FFFBF2;
+    overflow-x: hidden;
+  
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; 
+    color: #e0e0e0; /* Light text color for contrast */
+}
+
+.cart-container {
+    padding: 20px;
+    margin-top: 70px; /* Adjust based on the height of your navbar */
+    padding-top: 200px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cart-title {
+    font-size: 2em;
+    text-align: center;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.cart-items {
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Deep shadow for a lifted effect */
+}
+
+.cart-header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    background: #333;
+    color: #e0e0e0;
+    font-weight: bold;
+    border-bottom: 2px solid #444;
+}
+
+.header-item {
+    text-align: center;
+}
+
+.cart-body {
+    color: #e0e0e0;
+}
+
+.cart-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    background: #2c2c2c; /* Slightly darker background for items */
+    border-bottom: 1px solid #444;
+}
+
+.item-image {
+    max-width: 80px;
+    border-radius: 4px;
+}
+
+.item-title, .item-price, .item-total {
+    margin: 0;
+    text-align: center;
+}
+
+.item-quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-btn {
+    background-color: #444;
+    color: #e0e0e0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.quantity-btn:hover {
+    background-color: #555;
+}
+
+.item-remove {
+    color: #ff4d4d; /* Red color for remove links */
+    text-align: center;
+    cursor: pointer;
+}
+
+.item-remove:hover {
+    color: #ff1a1a;
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.summary-total {
+    font-size: 1.5em;
+}
+
+.checkout-btn {
+    background-color: #444;
+    color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.checkout-btn:hover {
+    background-color: #555;
+}

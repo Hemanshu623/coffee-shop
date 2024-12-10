@@ -1,0 +1,206 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    background-color: #FFFBF2;
+    overflow-x: hidden;
+  
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+
+/* Hero Section */
+
+.mainmenu{
+    height: 100vh;
+    width: 100%;
+    background: url(../img/bg-image.jpg)no-repeat center center/cover;
+    background-attachment: fixed;
+}
+.overlay1{
+    height: 100%;
+    width: 100%;
+   background-color: rgba(0, 0, 0, 0.338);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   flex-direction: column;
+}
+.overlay1 .p2{
+    color: #C7A17A;
+    font-family: 'Pacifico', 'Lobster', 'Dancing Script', cursive;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: -19px;
+}
+
+.overlay1 .menu-h1{
+    text-transform: uppercase;
+    font-size: 82px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+}
+
+/* Locations Section */
+.locations {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.locations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffb700;
+}
+ 
+
+.location-item {
+    position: relative;
+    margin: 20px 0;
+}
+
+.location-item img {
+    width: 100%;
+    height: auto;
+}
+
+.location-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.location-item h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.location-item p {
+    margin: 5px 0 10px;
+    font-size: 1.2rem;
+}
+
+.location-item button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.location-item button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Full-width for Bethesda Crescent */
+.full-width {
+    width: 100%;
+}
+
+/* Grid for two columns */
+.location-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Half-width for the two side-by-side locations */
+.half-width {
+    width: 48%;
+}
+
+@media (max-width: 768px) {
+    .location-grid {
+        flex-direction: column;
+    }
+
+    .half-width {
+        width: 100%;
+    }
+}
+
+
+/* Contact Form Section */
+.contact-form {
+    background-color: #111;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffb700;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #ffb700;
+}
+
+/* Feedback Message */
+.feedback {
+    margin-bottom: 1rem;
+    color: #00ff00; /* Success color */
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1c;
+    padding: 2rem 0;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,126 @@
+.history-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between grid items */
+    align-items: start; /* Align items at the start of each grid cell */
+    color: white;
+    background-color: #1E1D19;
+    position: relative; /* Relative positioning for the parent container */
+}
+
+.history-content {
+    /* grid-column: 1 / 2; 
+    margin-left: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 10px;
+    height: 345px;
+}
+
+.history-content h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 16px;
+}
+
+.history-image {
+    grid-column: 2 / 3; /* Position in the second column */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.history-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.since-badge {
+    width: 130px;
+    position: absolute;
+    top: 50%; /* Center vertically within the section */
+    left: 0%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    z-index: 1; /* Ensure the badge appears above other content */
+}
+
+.signature {
+    width: 180px; /* Adjust the size as needed */
+    margin-top: 20px;
+    grid-column: 1 / 3; /* Span across both columns */
+    text-align: left;
+}
+.footer-main{
+    display: grid;
+    margin: auto;
+    grid-column: 1 / 3; 
+    background-color: #000;
+    color: white;
+    padding: 40px 0;
+}
+.footer {
+    display: grid;
+    max-width: 70%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-column: 1 / 3; /* Span across both columns */
+    padding: 10px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #555; /* Border around each footer item */
+    padding:30px 15px;
+}
+
+.footer-item:hover {
+    background-color: #111;
+    color: white;   
+}
+.footer-item p{
+    text-align: left;
+    padding: 0 10px;
+    line-height: 1.5;
+}
+
+.footer-item a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.footer-item a:hover{
+    color: #C7A17A;
+    transform: scale(5);
+}
+
+.footer-item img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 24px; /* Adjust size for social icons */
+    height: 24px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 30px;
+}
